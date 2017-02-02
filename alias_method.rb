@@ -17,7 +17,5 @@ class Alias
     puts "Aqui eu printo a saída"
   end
 end
-
-
 pp Alias.new.new_hello
 
