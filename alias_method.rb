@@ -19,3 +19,30 @@ class Alias
 end
 pp Alias.new.new_hello
 
+
+
+#one more exemple
+
+class User
+  def full_name
+    puts "Joey Ramone"
+  end
+
+  def self.add_rename
+    alias :name :full_name
+  end
+end
+
+class Developer < User
+  def full_name
+    puts "Punk Rocker Guy"
+  end
+  add_rename
+end
+
+Developer.new.name
+
+
+
+
+
