@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+
+#define class Hello
 class Hello
 end
 
